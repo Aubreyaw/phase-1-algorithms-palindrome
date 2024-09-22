@@ -1,9 +1,24 @@
+
 function isPalindrome(word) {
-  // Write your algorithm here
+ const reversedWord =  word.split("").reverse().join("");
+  console.log(word === reversedWord);
 }
 
+isPalindrome("mom")
+
+// Example usage:
+const word = "racecar";
+console.log(isPalindrome(word)); // true
+
+const anotherWord = "hello";
+console.log(isPalindrome(anotherWord)); // false
+
 /* 
-  Add your pseudocode here
+  I should be able to enter a word and have it return true if it reads the same forward or backward and false if it does not
+  i will need to iterate over the letters in the word make an array?
+  reverse the word? and compare
+  how to reverse a string? 
+String.prototype.split()  Array.prototype.reverse()  Array.prototype.join()
 */
 
 /*
