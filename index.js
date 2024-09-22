@@ -1,10 +1,11 @@
 
 function isPalindrome(word) {
  const reversedWord =  word.split("").reverse().join("");
-  console.log(word === reversedWord);
+  return(word === reversedWord);
+  
 }
 
-isPalindrome("mom")
+isPalindrome("abba")
 
 // Example usage:
 const word = "racecar";
